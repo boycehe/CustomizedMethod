@@ -7,7 +7,6 @@
 //
 
 #import "hplAppDelegate.h"
-#import "AFNDemoViewController.h"
 
 @implementation hplAppDelegate
 
@@ -15,8 +14,7 @@
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     
-    AFNDemoViewController *demoViewController = [[AFNDemoViewController alloc]init];
-    self.window.rootViewController = demoViewController;
+
     
     
     self.window.backgroundColor = [UIColor whiteColor];
